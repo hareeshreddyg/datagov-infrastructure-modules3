@@ -19,7 +19,7 @@ variable "db_engine" {
 }
 
 variable "db_engine_version" {
- default = "9.6.1"
+ default = "9.6.6"
 }
 
 variable "db_instance_class" {
