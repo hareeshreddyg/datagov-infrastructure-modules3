@@ -98,89 +98,89 @@ variable "static_lc_instance_type" {
 
 ## web ##
 variable "asg_web_mix_size" {
-  default = "1"
+  default = "5"
 }
 
 variable "asg_web_max_size" {
-  default = "2"
+  default = "5"
 }
 
 variable "asg_web_desired_capacity" {
-  default = "1"
+  default = "5"
 }
 
 ## harvester ##
 variable "asg_harvester_mix_size" {
-  default = "1"
+  default = "4"
 }
 
 variable "asg_harvester_max_size" {
-  default = "1"
+  default = "4"
 }
 
 variable "asg_harvester_desired_capacity" {
-  default = "1"
+  default = "4"
 }
 
 ## solr ##
 variable "asg_solr_mix_size" {
-  default = "1"
+  default = "3"
 }
 
 variable "asg_solr_max_size" {
-  default = "1"
+  default = "3"
 }
 
 variable "asg_solr_desired_capacity" {
-  default = "1"
+  default = "3"
 }
 ## inventory ##
 variable "asg_inventory_mix_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_inventory_max_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_inventory_desired_capacity" {
-  default = "1"
+  default = "2"
 }
 ## crm ##
 variable "asg_crm_mix_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_crm_max_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_crm_desired_capacity" {
-  default = "1"
+  default = "2"
 }
 ## dashboard ##
 variable "asg_dashboard_mix_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_dashboard_max_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_dashboard_desired_capacity" {
-  default = "1"
+  default = "2"
 }
 ## wordpress ##
 variable "asg_wordpress_mix_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_wordpress_max_size" {
-  default = "1"
+  default = "2"
 }
 
 variable "asg_wordpress_desired_capacity" {
-  default = "1"
+  default = "2"
 }
 ## static ##
 variable "asg_static_mix_size" {
