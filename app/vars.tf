@@ -30,7 +30,7 @@ variable "web_lc_ami" {
 }
 
 variable "web_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ## harvester ##
@@ -39,7 +39,7 @@ variable "harvester_lc_ami" {
 }
 
 variable "harvester_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ## solr ##
@@ -48,7 +48,7 @@ variable "solr_lc_ami" {
 }
 
 variable "solr_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ## inventory ##
@@ -57,7 +57,7 @@ variable "inventory_lc_ami" {
 }
 
 variable "inventory_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 ## crm ##
 variable "crm_lc_ami" {
@@ -65,7 +65,7 @@ variable "crm_lc_ami" {
 }
 
 variable "crm_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ## dashboard ##
@@ -74,7 +74,7 @@ variable "dashboard_lc_ami" {
 }
 
 variable "dashboard_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 ## wordpress ##
 variable "wordpress_lc_ami" {
@@ -82,7 +82,7 @@ variable "wordpress_lc_ami" {
 }
 
 variable "wordpress_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ## static ##
@@ -91,7 +91,7 @@ variable "static_lc_ami" {
 }
 
 variable "static_lc_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ### Auto-Scaling Groups ###
