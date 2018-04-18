@@ -12,7 +12,7 @@ variable "jumpbox_ami" {
 }
 
 variable "jumpbox_instance_type" {
-  default = "t2.micro"
+  default = "t2.xlarge"
 }
 
 ### Launch Configurations ###
